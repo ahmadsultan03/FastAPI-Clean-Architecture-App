@@ -1,9 +1,9 @@
 from sqlalchemy import Column, String, Boolean, DateTime, ForeignKey, Enum
-from sqlalchemy.dialects.postgresql import UUID, ARRAY
+from sqlalchemy.dialects.postgresql import UUID
 import uuid
 from datetime import datetime, timezone
 import enum
-from ..database.core import Base
+from src.database.core import Base
 
 class Priority(enum.Enum):
     Normal = 0
