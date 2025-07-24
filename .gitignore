@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+*.venv/
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# PyCharm project files
+.idea/
+
+# Configurations
+*.env
+.env.*
+
+# Docker files
+.docker/
+docker-compose.override.yml
+
+# Test coverage
+.coverage
+.tox/
+.nox/
+*.cover
+*.log
+
+# Logs
+*.log
+
+# Database files
+*.sqlite3
