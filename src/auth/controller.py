@@ -5,7 +5,7 @@ from . import  models
 from . import service
 from fastapi.security import OAuth2PasswordRequestForm
 from src.database.core import DbSession
-from rate_limiter import limiter
+from src.rate_limiter import limiter
 
 router = APIRouter(
     prefix='/auth',
